@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto integrador - PeluCan</title>
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <form class="form__container" id="form-contacto" novalidate>
+    <div class="form-top">
+    <h2>Completa tus Datos</h2>
+    <a class="form-cerrar" href="index.html">&times;</a> 
+    </div>
+
+    <div class="form__field">
+        <input type="text" placeholder="Nombre" class="form__input" id="name" autocomplete="off" />
+        <small></small>
+
+      </div>
+      <div class="form__field">
+        <input type="text" placeholder="Apellido" class="form__input" id="lastName" autocomplete="off" />
+        <small></small>
+      </div>
+      <div class="form__field">
+        <input type="email" placeholder="Email" class="form__input" id="email" autocomplete="off" />
+        <small></small>
+      </div>
+        <label for="texto" class="form-caja">Ingresá tu consulta</label>
+        <div class="form__field">
+    <textarea id="textocaja" class="form__input" cols="25" rows="8"></textarea>
+    <small></small>
+  </div>
+    <div class="box-enviar"><input type="submit" value="Enviar" class="form-enviar"></div>
+</form>
+<script src="./assets/contacto.js"></script>
+
+</body>

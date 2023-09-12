@@ -1,0 +1,173 @@
+@media (max-width: 992px) {
+    .navbar {
+        gap: 5px;
+
+    }
+
+    .listbar {
+    position: absolute;
+    top: 65px;
+    left: 60%;
+    width: 40%;
+    font-weight: 600;
+    flex-direction: column;
+    background: rgb(55, 49, 88);
+    border: 2px solid blanchedalmond;
+    border-top: 0;
+    border-radius: 0 0 20px 20px;
+    align-items: flex-start;
+    padding: 45px 30px;
+    gap: 25px;
+    z-index: 2;
+    display: none;
+
+}
+
+.listbar a {
+    font-size:18px;
+}
+
+
+.menu-label {
+    display:flex;
+    font-weight: 600;
+    font-size: 20px;
+    color: blanchedalmond;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:2px;
+
+}
+.tooltiptext { 
+    display: none;
+}
+
+
+.login-signup {
+    gap:20px;
+}
+.menu-icon:hover {
+    color:yellowgreen;
+}
+
+}
+
+.open-menu {
+    display: flex;
+  }
+
+
+
+@media (max-width: 740px) {
+
+#hero img {
+display:none;
+}
+
+
+.info-hero {
+    width: 100%;
+    align-items: center;
+    width: 100%;
+}
+
+#info, #info-cards , #servicios  {
+    align-items: center; 
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.info-hero h1 , #info-cards h2, #servicios h2, .contacto-container h3 {
+   font-size: 25px;    
+}
+
+.info-hero h2 {
+    font-size:15px;
+}
+#info h3 {
+    font-size:15px;
+}
+
+/* Seccion cards  */
+
+.cards-cards {
+    width:220px ;
+}
+.cards-cards h3 {
+    font-size: 20px;
+} 
+
+.cards-cards p {
+    font-size: 14px;
+}
+
+
+
+
+/* Seccion servicios */
+
+
+.servicios-container {
+    gap:15px;
+    width: 100%;
+}
+
+.servicios-cards img {
+    display:none;
+}
+
+.servicios-cards h3 {
+    font-size: 16px;
+    
+}
+
+.servicios-cards h4 {
+    font-size:18px;
+
+}
+
+
+.btn-add {
+    font-size: 14px;
+    padding: 8px;
+}
+
+/* Seccion contacto */
+
+.contacto-top-info {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.contacto-top-info img {
+    display: none;
+}
+
+.contacto-datos h4  {
+    font-size: 18px;
+}
+
+.lista-datos {
+    font-size:14px;
+}
+
+.btn-consulta {
+    font-size: 14px;
+}
+.overlayform {
+    position:relative;
+    transition:opacity 500ms;
+    top:0;
+    bottom:0;
+    right:0;
+    left:0;
+    visibility: hidden;
+    opacity:0;
+    justify-content: center;
+    color:rgb(228, 139, 236);
+
+
+}
+}

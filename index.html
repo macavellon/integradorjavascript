@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto integrador - PeluCan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contacto.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>  
+    <header>
+        <div class="logo">
+            <img src="./assets/img/logo.png" alt="logo">
+        </div>
+        <nav class="navbar">
+            <ul class="listbar">
+                <li class="listlink"><a class="linkbar" href="#hero">Home</a></li>
+                <li class="listlink"><a class="linkbar" href="#info-cards">Nosotros</a></li>
+                <li class="listlink"><a class="linkbar" href="#servicios">Servicios</a></li>
+                <li class="listlink"><a href="#contacto" class="linkbar" >Contacto</a></li>
+            </ul>
+            <div class="login-signup">
+                <div class="menu-label">
+                    <i class="fa-solid fa-bars menu-icon"></i>
+                </div>
+                <a href="login.html"><i class="fa-solid fa-right-to-bracket logicon"><span class="tooltiptext">Inicia sesión</span></i></a>
+                <a href="registro.html"><i class="fa-solid fa-user-plus logicon"><span class="tooltiptext">Registrate</span></i></a>
+                <div class="cart-label">
+                    <i class="fa fa-shopping-cart cart-icon"><div class="cart-bubble">0</div></i>
+                </div>
+            
+      <div class="cart">
+
+        <h2>Tus Productos</h2>
+
+
+        <div class="cart-container">
+
+        </div>
+
+        <span class="divider"></span>
+
+        <div class="cart-total">
+          <p>Total: </p>
+          <span class="total"></span>
+        </div>
+        <button class="btn-buy">Comprar</button>
+        <button class="btn-delete">Vaciar carrito</button>
+      </div>
+        
+            <div class="overlay"></div>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="info-hero">
+                <h1>El mejor servicio de peluqueria canina y venta de alimento online</h1>
+                <h2>Ofrecemos un servicio de baño, corte y venta de alimento a domicilio a tu comodidad y la de tu mejor amigo de cuatro patas.</h2>
+            </div>
+            <img src="./assets/img/hero-card.png" alt="Imagen perro y niño portada">        
+        </section>
+
+        <section id="info">
+            <h3>Somos una empresa de venta de alimentos y servicio de baños y/o cortes a domicilio para perros con una flota de 10 moviles en toda la ciudad
+                 de Buenos Aires. Si, leiste bien, ofrecemos un baño a domicilio dentro de nuestro movil, sin ensuciar ni un
+                 metro cuadrado de tu casa.  <a href="login.html">Logeate</a> en nuestra pagina para conocer nuestros preicos y acceder a la membresia.
+            </h3>
+        </section>
+
+        <section id="info-cards">
+                <h2>Todo lo que nos representa</h2>
+            <div class="cards-container">
+                <div class="cards-cards">
+                    <img src="./assets/img/perro-card.jpg" alt="Icono gato-card">
+                    <h3>Trayectoria</h3>
+                    <p>Contamos con casi 30 años de experiencia en el rubro durante los cuales nos siguen acompañando nuestros clientes. </p>
+                </div>
+                <div class="cards-cards">
+                    <img src="./assets/img/pata-card.jpg" alt="Icono pata-card">
+                    <h3>Confianza</h3>
+                    <p>Te damos toda la libertad de poder presenciar el baño de tu mascota para que te quedes tranquilo que lo realizamos con todo el amor.</p>
+                </div>
+                <div class="cards-cards">
+                    <img src="./assets/img/perro-card.jpg" alt="Icono perro-card">
+                    <h3>Calidad</h3>
+                    <p>Utilizamos y comercializamos productos de calidad.</p>
+                </div>
+            </div>
+
+        </section>
+
+        <section id="servicios">
+            <h2>Nuestros Servicios y Productos.</h2>
+            <div class="categories">
+                <button class="category active">Todas</button>
+                <button class="category" data-category="servicio">Servicios</button>
+                <button class="category" data-category="alimentoperro">Alimento para Perros</button>
+                <button class="category" data-category="alimentogato">Alimento para Gatos</button>
+            </div>
+
+        
+            <div class="seryprod-container">
+            </div>
+                <button class="btn-load">Ver Más</button>
+
+            </section>
+
+            <section id="contacto">
+                <div class="contacto-top-info">
+                    <div class="contacto-container">
+                        <h3>Contactanos</h3>
+                                <div class="contacto-datos">
+                                    <h4>Oficina Villa Crespo</h4>
+                                    <ul class="lista-datos">
+                                        <li><img src="./assets/img/icono-direccion.png" alt="icono-direccion"> Aguirre 273</li>
+                                        <li><img src="./assets/img/icono-mail.png" alt="icono-mail"> pelucan@pelucan.com.ar</li>
+                                        <li><img src="./assets/img/icono-wsp.png" alt="icono-wsp"> 11-33012544</li>
+                                        <li><a href="contacto.html" class="btn-consulta">Dejanos tu consulta</a></li>
+                                    </ul>
+                                </div>
+                        <div class="logos-redes">
+                            <a href="#"><img src="./assets/img/icono-twitter.png" alt="icono-twitter" ></a> 
+                            <a href="#"><img src="./assets/img/icono-instagram.png" alt="icono-instagram" ></a>
+                            <a href="#"><img src="./assets/img/icono-facebook.png" alt="icono-facebook" ></a>
+                        </div>
+                    </div>
+                    <img src="./assets/img/imagen-vete.jpg" alt="imagen-baño">   
+                </div> 
+                
+        </section> 
+    </main>         
+        <footer>                                        
+            <div class="footer-bottom">
+                <img src="./assets/img/logo.png" alt="imagen-logo" >
+                <p>CopyRight-PeluCan</p>
+            </div>
+    
+        </footer>
+        <div class="add-modal"></div>
+        <script src="./assets/data.js"></script>
+        <script src="./assets/index.js"></script>
+    
+    
+</body>
+</html>
